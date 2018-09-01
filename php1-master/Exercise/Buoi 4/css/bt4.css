@@ -3,33 +3,40 @@ body{
 }
 
 .header{
-    background-color: #FDD530;
+    background:#fed700;;
+    width: 100%;
     height: 55px;
-    width: 100%
 }
+
 .menu{
     width: 1200px;
-    margin: auto
+    margin: auto /*ở giữa*/
 }
-.left , .right, .item, .simso, .diennuoc, .search-form,.logo{
+
+.left, .right, .item, .other, .search-form, .logo{
     float: left;
 }
+
 .logo{
-    background-image: url("../images/icondesktop@2x.png");
+    background-image: url("C:/Users/Tran Le/Desktop/Web Course/Web-KP-Course/php1-master/Exercise/Buoi 4/image/icondesktop@2x.png");
     height: 40px;
     width: 165px;
     background-size: 500px;
     background-position: 6px 10px;
     margin: 5px
+    
 }
+
 .left{
     background-color: black;
     height: 55px;
 }
+
 .search-form{
     margin: 10px 5px;
-    margin-right: 15px
+    margin-right: 10px
 }
+
 .search-form input{
     height: 30px;
     width: 170px;
@@ -39,9 +46,11 @@ body{
     text-indent: 13px;
     font-size: 13px;
 }
+
 .search-form input::placeholder{
     color: blue
 }
+
 .search-form button{
     margin: 0px -5px;
     border: 0px;
@@ -51,6 +60,7 @@ body{
     border-bottom-right-radius: 5px;
     font-size: 14px;
 }
+
 .item{
     text-align: center;
     padding:5px;
@@ -65,11 +75,14 @@ body{
     font-size: 11px;
     text-transform: uppercase
 }
-.simso, .diennuoc{
+.other{
     border-left: 1px solid rgba(0,0,0,.1);
     height: 35px;
     padding: 10px 14px;
 }
-.simso:hover, .diennuoc:hover, .item:hover{
+.simso:hover, .diennuoc:hover, .item:hover, .other:hover{
     background-color: #fff
 }
+
+
+

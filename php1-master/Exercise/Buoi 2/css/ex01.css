@@ -1,0 +1,30 @@
+body{
+    margin: 0px
+}
+.container{
+    width: 100%;
+    margin: auto
+}
+
+
+
+.item{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 5px;
+    border : solid;
+    border-width: 1px;
+    border-color: papayawhip;
+    border-radius: 10px;
+    position:relative;
+}
+
+.item img{
+    
+    width: 100px;
+    height: 100px; 
+    margin:auto;
+    position:absolute;
+    top:0; left:0; right:0; bottom:0;
+}

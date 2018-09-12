@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button id="btn" onclick="turnLight()">Turn on</button>
+    </div>
+    <div>
+        <img id="light" src="../images/off.png" alt="">
+    </div>
+
+    <input type="text" id="txtSoa" >
+    <input type="text" id="txtKq" >
+</body>
+<script>
+    var tmp = 1;
+    function turnLight(){
+        // var light = document.getElementById('light')
+        // tmp%2==0 ? light.src = "../images/off.png" : light.src ="../images/on.png";
+        // tmp++;
+        var a = document.getElementById('txtSoa').value 
+        document.getElementById('txtKq').value = a
+    }
+</script>
+</html>

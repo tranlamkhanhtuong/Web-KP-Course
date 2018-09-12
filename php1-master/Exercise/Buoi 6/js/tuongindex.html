@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- getElementById() 
+    <div id="my-div" class="">hiii</div>
+    <div id="my-div" class="">haha</div>
+    -->
+
+    <!--
+    document.getElementsByClassName(classname)
+    <div class="demo">Hahaha</div>
+    <div class="demo">Hihihi</div>
+    <div class="demo">Kaka</div>
+    -->
+
+    <!--
+        getElementsByName
+    <div name="demo">Hahaha</div>
+    <div name="demo">Hihihi</div>
+    <div name="demo">Kaka</div>
+    -->
+
+    <!--
+        getElementsByTagName
+    <div name="demo">Hahaha</div>
+    <div name="demo">Hihihi</div>
+    <div name="demo">Kaka</div>
+
+    -->
+
+    <!--
+        Example for innerHTML, innerText, textContent
+        <div id="demo"> <h2>Hahaha</h2> </div>
+    -->
+
+    <!--
+        <button id="btnClick">Click me</button>
+    -->
+
+    <!--
+        <button id="btnClick" onclick="clickMe()">Click me</button>
+    -->
+    
+    
+
+
+
+
+
+
+
+
+
+</body>
+<script>
+    //getElementById() 
+    //document.getElementById('my-div').innerHTML="<h2>Hello JS</h2>"
+    //getElementsByClassName()
+    /*
+    var o = document.getElementsByClassName("demo")
+    o[0].innerHTML="<h2>TuongHhaha</h2>"
+    o[1].innerHTML="<h2>TuongHihih</h2>"
+    o[2].innerHTML="<h2>Tuongdemo</h2>"
+
+    */
+
+/*
+    var o = document.getElementsByName("demo")
+    o[0].innerHTML = "<h2>TuongHhahaName</h2>"
+    o[1].innerHTML = "<h2>TuongHihihName</h2>"
+    o[2].innerHTML = "<h2>TuongdemoName</h2>"
+*/
+    /*
+    var o = document.getElementsByTagName("div")
+    o[0].innerHTML = "<h2>TuongHhahaTagName</h2>"
+    o[1].innerHTML = "<h2>TuongHihihTagName</h2>"
+    o[2].innerHTML = "<h2>TuongdemoTagName</h2>"
+    */
+
+    /*
+    var o = document.getElementById('demo')
+    var x = o.innerHTML // Co lay cac the
+    console.log(x)  
+
+    var o = document.getElementById('demo')
+    var x = o.innerText // Khong lay cac the .lập trình viên không thể chèn thẻ HTML vào node thông qua innerText.
+    console.log(x)   
+
+    
+    var o = document.getElementById('demo')
+    var x = o.textContent // Khong lay cac the .lập trình viên không thể chèn thẻ HTML vào node thông qua innerText.
+    console.log(x)
+    */   
+
+    /* Cach 1
+    var x  = true
+    var o = document.getElementById('btnClick').onclick = function()
+    {
+        if(x == true)
+        {
+            document.getElementById('btnClick').textContent="haha"
+            x = false
+        }
+        else 
+        {
+            document.getElementById('btnClick').textContent="hihi"
+            x = true
+        }
+    }
+    */
+
+    /*
+    Cach 2
+    var x  = true
+    var o = document.getElementById('btnClick').onclick = function()
+    {
+        if(x)document.getElementById('btnClick').textContent="haha"
+        else document.getElementById('btnClick').textContent="hihi"
+        x = !x
+    }
+    */
+
+    /* Cach 3
+    var x  = true
+    var o = document.getElementById('btnClick')
+    o.onclick = function()
+    {
+        x == true ? o.textContent="haga" : o.textContent="hihi"
+        x = !x
+    }
+    */
+
+    /*Cach 4
+        var x =true
+    var o = document.getElementById('btnClick')
+    function clickMe(){
+        x == true ? o.textContent="haga" : o.textContent="hihi"
+        x = !x
+    }
+
+    */
+
+
+
+    
+
+
+</script>
+
+</html>

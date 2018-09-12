@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="my-div" class=""></div>
+    <button id="btnClick" onclick="clickMe()" >Click me</button>
+    <img src="" alt="" id="my-image">
+    
+
+</body>
+<script>
+    var obj =  document.getElementById('my-div')
+        obj.style.width = "200px"
+        obj.style.height = "200px"
+        obj.style.backgroundColor = "blue"
+        
+    function clickMe(){
+        document.getElementById('my-image').src = "../images/home.png"
+    }
+
+    // var x = true;
+    // function clickMe(){
+    //     var obj =  document.getElementById('my-div')
+    //     x == true ? obj.innerHTML = "<h2>Hello JS</h2>" : obj.innerHTML = "";
+    //     x = !x
+    // }
+
+
+    // document.getElementById('my-div').innerHTML = "<h2>Hello JS</h2>"
+    // document.getElementById('my-div').innerText = "<h2>Hello JS</h2>"
+    /*
+    var x = true;
+    var obj =  document.getElementById('my-div')
+
+    document.getElementById('btnClick').onclick = function(){
+        // if(x == true){
+        //     document.getElementById('my-div').innerHTML = "<h2>Hello JS</h2>";
+        //     x = false;
+        // }
+        // else{
+        //     x = true
+        //     document.getElementById('my-div').innerHTML = "";
+        // }
+        // if(x == true) document.getElementById('my-div').innerHTML = "<h2>Hello JS</h2>";
+        // else document.getElementById('my-div').innerHTML = "";
+        // x = !x
+        // console.log(x)
+
+        x == true ? obj.innerHTML = "<h2>Hello JS</h2>" : obj.innerHTML = "";
+        x = !x
+    }
+    //      dieukien ? true : false
+    */
+
+
+
+</script>
+</html>

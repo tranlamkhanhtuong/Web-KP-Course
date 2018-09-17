@@ -1,0 +1,9 @@
+1. Xem them Json : https://freetuts.net/hoc-json/json-can-ban
+2. for i duyet mang binh thuong, foreach duyet mang cua key - value
+3. foreach($arr as $key=>$value) xuat ra ca key + value
+4. Khac nhau giua sizeof va count :
+- https://stackoverflow.com/questions/3974385/php-array-count-or-sizeof
+- https://freetuts.net/nen-dung-count-hay-sizeof-de-dem-so-phan-tu-cua-mang-143.html
+5. Mang da chieu tenmang[vitrimang1][vitrimang2][...]
+6.Xuat : http://edu.hocweb123.com/khoa-hoc/bai-5-xuat-du-lieu-trong-php-voi-echo-print-printr-110.html
+7. require va include : https://freetuts.net/lenh-require-require_once-include-include_once-trong-php-647.html

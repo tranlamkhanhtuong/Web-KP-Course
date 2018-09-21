@@ -1,0 +1,33 @@
+* array_splice( ) xoa phan tu trong mang va thay the bang mot phan ty hoac mot so phan tu khac.
+array_splice($array, $offset ,[$lenght, $replace]);
+$array : la mang du lieu truyen vao
+$offset : la vi tri cua phan tu dau tien bi xoa.
+$lenght : la phan tu bi xoa.
+$replace : phan tu va mang the the cac phan tu bi xoa.
+
+* str_replace($search, $replace, $subject)
+https://freetuts.net/hoc-php/str_replace_function.html
+
+* strlen : https://freetuts.net/hoc-php/strlen_function.html
+
+* strripos()  : https://freetuts.net/hoc-php/strripos_function.html
+
+* date_default_timezone_get() : https://freetuts.net/hoc-php/date_default_timezone_get_function.html
+
+* date_default_timezone_set() : https://freetuts.net/hoc-php/date_default_timezone_set_function.html
+
+* getdate() : https://freetuts.net/hoc-php/getdate_function.html
+
+* Dinh dang thoi gian : https://toidicode.com/xu-ly-ngay-thang-trong-php-73.html
+
+* - include neu co class o trong se bao loi.
+require se dung toan bo doan code, include bao loi nhung van chay.
+require_one, include_one, require, include.
+https://freetuts.net/lenh-require-require_once-include-include_once-trong-php-647.html
+
+* vong lap trong php :
+- cach dung echo chi dung cho thong tin rat ngan.
+- cach dung vong lap <?php foreach : ?> <?php endforeach ?> ( Cach 2 )
+- <?=> = <?php echo ?>
+
+* number_format() :  https://freetuts.net/hoc-php/number_format_function.html

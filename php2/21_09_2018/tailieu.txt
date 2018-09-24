@@ -1,0 +1,20 @@
+* Header Request va Header Response:
+https://freetuts.net/header-request-va-header-response-670.html
+
+*File trong php:
+https://freetuts.net/cac-ham-xu-ly-file-trong-php-22.html
+
+*upload file server :
+https://freetuts.net/upload-file-len-server-voi-php-23.html
+
+* Session và cokie :
+https://freetuts.net/session-va-cookie-trong-php-25.html
+
+* empty va isset:
+https://freetuts.net/ham-isset-va-empty-trong-php-350.html
+
+* GET POST form:
+https://freetuts.net/hieu-ve-request-va-response-trong-lap-trinh-web-676.html
+
+* *1
+<?= ?> = <?php ?>

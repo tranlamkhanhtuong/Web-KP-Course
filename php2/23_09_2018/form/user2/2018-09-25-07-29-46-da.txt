@@ -1,0 +1,5 @@
+D. A : quan tam 
+Phan biet D.A va D.E va D.S
+IOT, BigData la gi, Matlab , R
+Anoconda la gi ?
+spyder

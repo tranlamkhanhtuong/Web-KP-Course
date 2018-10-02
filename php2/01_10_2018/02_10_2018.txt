@@ -1,0 +1,21 @@
+* @ bo qua thong bao loi.
+
+* Xu ly file : https://laptrinhweb.caohung.net/xu-ly-file-va-thu-muc-trong-php-212.html
+
+* explode : https://freetuts.net/hoc-php/explode_function.html
+
+* implode : https://freetuts.net/hoc-php/implode_function.html
+
+* Neu define 2 bien cung ten se bao loi va ket qua tra ve la define dau tien.
+
+* Ham file_exists : https://freetuts.net/hoc-php/file_exists_function.html
+
+* upload 1 file : http://kienthucweb.net/huong-dan-lap-trinh-xu-ly-upload-file-trong-php.html
+
+* pathinfo : https://freetuts.net/hoc-php/pathinfo_function.html
+
+* Khi upload nhieu file thi name file la mang.
+
+* unlink : https://freetuts.net/hoc-php/unlink_function.html
+
+
